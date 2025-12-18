@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fluffy Store – Soft Toys</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5f7;
+}
+
+header {
+    background-color: #ff6f91;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff9aa2;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.price {
+    color: #ff6f91;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4f70;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+body {
+    background-color: #e0f7fa; 
+}
+
+header {
+    background-color: #80deea;
+    color: #004d40;
+}
+
+nav {
+    background-color: #b2ebf2;
+}
+
+.card {
+    width: 45%;
+}
+
+.price {
+    color: #00796b;
+}
+
+button {
+    background-color: #4dd0e1;
+}
+}
+
+@media (max-width: 480px) {
+
+body {
+    background-color: #fff3e0; 
+}
+
+header {
+    background-color: #ffccbc;
+    color: #5d4037;
+}
+
+nav {
+    background-color: #ffab91;
+    text-align: left;
+    padding: 10px;
+}
+
+.menu-toggle {
+    display: block;
+    font-size: 26px;
+    color: #5d4037;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+nav a {
+    color: #5d4037;
+    display: block;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked + ul {
+    display: block;
+}
+
+.container {
+    padding: 15px;
+}
+
+.card {
+    width: 100%;
+}
+
+button {
+    background-color: #ff8a65;
+}
+
+.price {
+    color: #d84315;
+}
+
+}
+</style>
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>🧸 Fluffy Store</h1>
+    <p>Your favorite soft toys at one place</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="container">
+
+    <div class="card">
+        <img src="https://media.istockphoto.com/id/909772478/photo/brown-teddy-bear-isolated-in-front-of-a-white-background.jpg?s=612x612&w=0&k=20&c=F4252bOrMfRTB8kWm2oM2jlb9JXY08tKCaO5G_ms1Uw=" alt="Teddy Bear">
+        <h3>Teddy Bear</h3>
+        <p class="price">₹799</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/stuffed-toy/c/8/a/fruit-rabbit-soft-toy-pink-1-single-piece-35-teddy-daddy-original-imah4fj6etxuseag.jpeg?q=90" alt="Rabbit Toy">
+        <h3>Rabbit Plush</h3>
+        <p class="price">₹599</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://www.soosi.co.in/cdn/shop/products/WhatsAppImage2021-12-09at19.33.09_1_2048x.jpg?v=1639059119" alt="Unicorn Toy">
+        <h3>Unicorn Soft Toy</h3>
+        <p class="price">₹999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSaSBQqLk2F16lpr9brDPYo24ioNdySkDxw&s" alt="Panda Toy">
+        <h3>Panda Plush</h3>
+        <p class="price">₹699</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2025 Fluffy Store | Made with ❤️</p>
+</footer>
+
+</body>
+</html>
